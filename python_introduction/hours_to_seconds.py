@@ -1,4 +1,5 @@
-def hours_to_seconds(hours):
-    seconds = hours * 3600
-    return print(f"2 hours(s) is {seconds} seconds.")
-hours_to_seconds(2)
+hours = 2
+seconds = hours * 3600
+
+seconds = hours * 3600
+print(f"2 hours(s) is {seconds} seconds.")
