@@ -8,7 +8,7 @@ def main():
     print(my_book)  # Expected to use __str__
 
     # Demonstrating the __repr__ method
-    print(__repr__(my_book))  # Expected to use __repr__
+    print(repr(my_book))  # Expected to use __repr__
 
     # Deleting a book instance to trigger __del__
     del my_book
